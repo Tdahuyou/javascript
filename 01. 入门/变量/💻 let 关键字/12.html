@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Var Example</title>
+  </head>
+  <body>
+    <ul id="var-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+    <script>
+      var listItems = document.querySelectorAll('#var-list li')
+      for (var i = 0; i < listItems.length; i++) {
+        // 错误写法
+        // listItems[i].addEventListener('click', function () {
+        //   alert('Item ' + (i + 1) + ' clicked')
+        // })
+
+        // 正确写法1
+        // ;(function (currentIndex) {
+        //   listItems[currentIndex].addEventListener('click', function () {
+        //     alert('Item ' + (currentIndex + 1) + ' clicked')
+        //   })
+        // })(i)
+
+        // 正确写法还有很多种，这里介绍的是其中一种使用 IIFE 的方法
+      }
+    </script>
+  </body>
+</html>

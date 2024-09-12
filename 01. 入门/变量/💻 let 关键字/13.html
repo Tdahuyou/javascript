@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let Example</title>
+  </head>
+  <body>
+    <ul id="let-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+    <script>
+      var listItems = document.querySelectorAll('#let-list li')
+      for (let i = 0; i < listItems.length; i++) {
+        listItems[i].addEventListener('click', function () {
+          alert('Item ' + (i + 1) + ' clicked')
+        })
+      }
+    </script>
+  </body>
+</html>

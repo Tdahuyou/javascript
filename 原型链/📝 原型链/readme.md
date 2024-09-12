@@ -1,0 +1,1 @@
+如果 A 是由 B new 出来的，那么 A 的隐式原型 `A.__proto__` 指向 B 的原型 `B.prototype`。
