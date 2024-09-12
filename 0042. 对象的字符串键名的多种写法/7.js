@@ -1,3 +1,4 @@
+// 对象的属性名可以是非法标识符
 const user = {
   'graduate date': '2022-06',
   'home address': {
