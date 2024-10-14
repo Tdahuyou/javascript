@@ -1,6 +1,6 @@
 # 0061. 在浏览器中引入 ESM 模块
 
-## 📝 notes
+## 📒 notes
 
 - 给 `<script>` 标签加上 `type="module"` 属性
   - 开启模块化：`<script src="./module/index.js" type="module"></script>`
