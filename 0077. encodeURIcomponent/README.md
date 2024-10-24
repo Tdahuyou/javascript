@@ -1,4 +1,4 @@
-# 0077. encodeURIcomponent
+# [0077. encodeURIcomponent](https://github.com/Tdahuyou/javascript/tree/main/0077.%20encodeURIcomponent)
 
 ## 🤖 ai - 一个带有空格等非法字符的字符串如何编码为合法的 url
 

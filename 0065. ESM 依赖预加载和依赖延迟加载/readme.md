@@ -1,4 +1,8 @@
-打开 devtools 中的 network 面板，查看加载的 js 文件。
+# [0065. ESM 依赖预加载和依赖延迟加载](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD)
 
-- 静态导入，dynamicModule1.js、dynamicModule2.js 这两个文件都会被加载；
-- 动态导入，dynamicModule1.js、dynamicModule2.js 这两个文件只有一个会被加载；
+- 📝 summary
+
+## 🔗 links
+## 📒 notes
+## 💻 demo
+## 🤖 ai

@@ -1,4 +1,4 @@
-# 0061. 在浏览器中引入 ESM 模块
+# [0061. 在浏览器中引入 ESM 模块](https://github.com/Tdahuyou/javascript/tree/main/0061.%20%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E5%BC%95%E5%85%A5%20ESM%20%E6%A8%A1%E5%9D%97)
 
 ## 📒 notes
 
@@ -16,7 +16,7 @@
 - 未开启模块化 - 成功打印 1 - 意味着没有开启模块化，模块内部定义的成员直接污染到了全局
 - 开启模块化 - 报错 Uncaught ReferenceError: a is not defined - 意味着浏览器将 index.js 视作了一个模块来处理，模块内部的成员并没有污染全局
 
-## 🤖 AI - 给 script 标签加上 type="module" 意味着什么？
+## 🤖 ai - 给 script 标签加上 type="module" 意味着什么？
 
 给 `<script>` 标签加上 `type="module"` 属性意味着你将使用 ECMAScript 模块（ES Modules）来编写和加载 JavaScript 代码。这有几个重要的含义和影响：
 
