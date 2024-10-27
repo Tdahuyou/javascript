@@ -16,7 +16,7 @@
 - 未开启模块化 - 成功打印 1 - 意味着没有开启模块化，模块内部定义的成员直接污染到了全局
 - 开启模块化 - 报错 Uncaught ReferenceError: a is not defined - 意味着浏览器将 index.js 视作了一个模块来处理，模块内部的成员并没有污染全局
 
-## 🤖 ai - 给 script 标签加上 type="module" 意味着什么？
+## 🤖 AI - 给 script 标签加上 type="module" 意味着什么？
 
 给 `<script>` 标签加上 `type="module"` 属性意味着你将使用 ECMAScript 模块（ES Modules）来编写和加载 JavaScript 代码。这有几个重要的含义和影响：
 

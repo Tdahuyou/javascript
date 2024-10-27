@@ -4,7 +4,7 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from - MDN Array.from()
 
-## 🤖 ai - 通过 Array.form 来创建一个二维数组
+## 🤖 AI - 通过 Array.form 来创建一个二维数组
 
 使用 `Array.from` 方法可以方便地创建数组。如果你想要创建一个二维数组，你可以通过嵌套调用 `Array.from` 来实现。下面是一些示例代码，展示了如何使用 `Array.from` 创建不同类型的二维数组。
 
