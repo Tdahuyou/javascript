@@ -1,5 +1,6 @@
 # [0077. encodeURIcomponent](https://github.com/Tdahuyou/javascript/tree/main/0077.%20encodeURIcomponent)
 
+
 ## 🤖 AI - 一个带有空格等非法字符的字符串如何编码为合法的 url
 
 将带有空格等非法字符的字符串编码为合法的URL，可以使用JavaScript中的`encodeURIComponent`函数。这个函数会将字符串中的特殊字符转换为它们的UTF-8编码形式，并以百分号（%）和两位十六进制数表示。
