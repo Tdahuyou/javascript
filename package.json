@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=javascript",
+        "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=javascript",
+        "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=javascript",
+        "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=javascript"
+    }
+}
