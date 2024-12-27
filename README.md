@@ -141,13 +141,14 @@
   - 笔记中除了介绍 if 语句的基本用法之外，还涉及到了一些和布尔运算、类型转换相关的知识点，这些也非常重要，详情会在其他笔记中介绍。
   
 
-- [ ] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#5--ai)
+- [x] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
+  - [1. 📒 if...else 基本结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#1--ifelse-基本结构)
+  - [2. 💻 demos.2 - 认识基本的 if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#2--demos2---认识基本的-ifelse-结构)
+  - [3. 💻 demos.3 - 多个 if...else 的情况](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#3--demos3---多个-ifelse-的情况)
+  - [4. 💻 demos.1 - else 和最近的 if 配对](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#4--demos1---else-和最近的-if-配对)
+  - 知识点：
+    - 掌握 if...else 基本结构
+    - 直到 if else 的配对规则
   
 
 - [ ] [0010. 条件语句 - switch 结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) -->  
