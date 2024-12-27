@@ -1,15 +1,17 @@
-# [0005. 区块](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97)
+# [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F)
 
 <!-- region:toc -->
 - [1. 📒 区块和块级作用域](#1--区块和块级作用域)
 - [2. 💻 demos.1 - 块级作用域](#2--demos1---块级作用域)
 - [3. 💻 demos.2 - if 结构](#3--demos2---if-结构)
+- [4. 💻 demos.3 - 使用区块来隔离上下文](#4--demos3---使用区块来隔离上下文)
 <!-- endregion:toc -->
 - 知识点：
   - 区块是什么
   - 区块的创建
   - 区块的作用
   - 块级作用域
+  - 学会使用区块来隔离上下文
 - 区块“block”可以简单地理解为一对大括号 `{}`。var 没有块级作用域，let、const 有块级作用域。
 
 ## 1. 📒 区块和块级作用域
@@ -78,3 +80,42 @@ console.log(letVariable)
 // 即这些使用 const、let 声明的变量只能在 block 内部被访问
 ```
 
+## 4. 💻 demos.3 - 使用区块来隔离上下文
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用区块来隔离上下文</title>
+</head>
+<body>
+    <script>
+        {
+            // 这是 A 的代码
+            let x = 1;
+            console.log('x =>', x)
+        }
+
+        {
+            // 这是 B 的代码
+            let x = 2;
+            console.log('x =>', x)
+        }
+    </script>
+</body>
+</html>
+
+<!-- 
+可以使用区块来隔离上下文
+写起来非常简单，只需要把需要隔离的部分加上大括号即可。
+
+比如，我们想把 A 和 B 的代码隔离开来，就可以使用区块来隔离上下文。
+
+A 可能是其他人写的代码。
+B 可能是你自己写的代码。
+
+你在写 B 的时候，不希望被 A 影响，并且对 A 也没有任何依赖。
+-->
+```

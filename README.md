@@ -71,7 +71,7 @@
   - let 关键字的规则不多，也比较好理解。在 let、const 关键字出现之前，定义变量只能使用 var 关键字，var 这玩意儿存在不少问题，有很多经典的历史问题在 let、const 出现之后都引刃而解了。
   
 
-- [ ] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
+- [x] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
   - [1. 📒 const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--const-关键字)
   - [2. 📒 理解 const 的 “常量约束” 的本质](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--理解-const-的-常量约束-的本质)
   - [3. 📒 栈内存、堆内存](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--栈内存堆内存)
@@ -90,34 +90,45 @@
   - const 和 let 非常类似，区别在于 let 定义的是变量，const 定义的是常量。定义变量时首选 const 关键字，其次 let 关键字，放弃 var 关键字。
   
 
-- [ ] [0005. 区块](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97/README.md) -->  
-  - [1. 📒 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#1--区块和块级作用域)
-  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#2--demos1---块级作用域)
-  - [3. 💻 demos.2 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#3--demos2---if-结构)
+- [x] [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) -->  
+  - [1. 📒 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#1--区块和块级作用域)
+  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#2--demos1---块级作用域)
+  - [3. 💻 demos.2 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#3--demos2---if-结构)
+  - [4. 💻 demos.3 - 使用区块来隔离上下文](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#4--demos3---使用区块来隔离上下文)
   - 知识点：
     - 区块是什么
     - 区块的创建
     - 区块的作用
     - 块级作用域
+    - 学会使用区块来隔离上下文
   - 区块“block”可以简单地理解为一对大括号 `{}`。var 没有块级作用域，let、const 有块级作用域。
   
 
-- [ ] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#5--ai)
+- [x] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
+  - [1. 💻 demos.1 - 用浏览器来执行 JS 程序的基本流程](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#1--demos1---用浏览器来执行-js-程序的基本流程)
+  - 知识点：
+    - 学会使用浏览器环境运行 JS
+    - 学会使用 NodeJS 环境运行 JS
+  - 在开始学习 JS 的内容之前，首先需要知道如何运行 JS 代码。这篇笔记介绍如何使用浏览器跑 JS 程序。
+  - 在 nodejs 的学习笔记中，会介绍如何使用 nodejs 来执行 JS 程序（其实非常简单，安装好 nodejs，然后使用 node 命令 👉 `node xxx.js` 就可以执行 `xxx.js` 了。）
   
 
-- [ ] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--ai)
+- [x] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
+  - [1. 📒 表达式（Expression）和语句（Statement）](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--表达式expression和语句statement)
+  - [2. 💻 demos.1 - 理解语句](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--demos1---理解语句)
+  - [3. 💻 demos.2 - 理解表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--demos2---理解表达式)
+  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4-✍-练习题)
+  - [5. 🤔 问：写在前面的语句一定先于后面的语句执行吗？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--问写在前面的语句一定先于后面的语句执行吗)
+  - [6. 🤔 问：如何区分表达式和语句？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#6--问如何区分表达式和语句)
+  - 知识点：
+    - 语句
+    - 表达式
+    - 问：如何区分表达式和语句？
+  - 这篇笔记介绍了什么是语句，什么是表达式。其实语句和表达式是非常类似的，从概念上不容易区分。并且从定义来看，它们之间的关系还不是互斥的，而是相交的关系。也就是说有以下可能：
+    - `xxx` 是语句，不是表达式
+    - `xxx` 是表达式，不是语句
+    - `xxx` 可能同时是语句和表达式
+  - **很多时候我们并没有必要严格区分开我们所写某一代码片段到底是“表达式”还是“语句”，更重要的是能够理解这玩意儿能否“产生”一个值。**
   
 
 - [ ] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
