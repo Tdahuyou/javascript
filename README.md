@@ -13,24 +13,25 @@
 - [x] [0001. var 关键字和变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) <!-- [locale](./0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) -->  
   - [1. 💡 思维导图](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#1--思维导图)
   - [2. 📒 理解变量、内存、值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#2--理解变量内存值)
-  - [3. 📒 不再推荐使用 `var` 来声明变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#3--不再推荐使用-var-来声明变量)
-  - [4. 💻 demos.1 - 理解变量和值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#4--demos1---理解变量和值)
-  - [5. 💻 demos.2 - 区分大小写](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#5--demos2---区分大小写)
-  - [6. 💻 demos.3 - 变量的声明、赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#6--demos3---变量的声明赋值)
-  - [7. 💻 demos.4 - 仅声明未赋值为 undefined](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#7--demos4---仅声明未赋值为-undefined)
-  - [8. 💻 demos.5 - 全局变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#8--demos5---全局变量)
-  - [9. 💻 demos.6 - 使用未声明的变量会报错](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#9--demos6---使用未声明的变量会报错)
-  - [10. 💻 demos.7 - 可一次声明多个变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#10--demos7---可一次声明多个变量)
-  - [11. 💻 demos.8 - 理解“动态”类型](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#11--demos8---理解动态类型)
-  - [12. 💻 demos.9 - 变量重复声明无效](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#12--demos9---变量重复声明无效)
-  - [13. 💻 demos.10 - 变量重复声明并重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#13--demos10---变量重复声明并重新赋值)
+  - [3. 💻 demos.11 - `var` 关键字的作用域特性](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#3--demos11---var-关键字的作用域特性)
+  - [4. 📒 不再推荐使用 `var` 来声明变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#4--不再推荐使用-var-来声明变量)
+  - [5. 💻 demos.1 - 理解变量和值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#5--demos1---理解变量和值)
+  - [6. 💻 demos.2 - 区分大小写](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#6--demos2---区分大小写)
+  - [7. 💻 demos.3 - 变量的声明、赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#7--demos3---变量的声明赋值)
+  - [8. 💻 demos.4 - 仅声明未赋值为 undefined](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#8--demos4---仅声明未赋值为-undefined)
+  - [9. 💻 demos.5 - 全局变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#9--demos5---全局变量)
+  - [10. 💻 demos.6 - 使用未声明的变量会报错](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#10--demos6---使用未声明的变量会报错)
+  - [11. 💻 demos.7 - 可一次声明多个变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#11--demos7---可一次声明多个变量)
+  - [12. 💻 demos.8 - 理解“动态”类型](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#12--demos8---理解动态类型)
+  - [13. 💻 demos.9 - 变量重复声明无效](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#13--demos9---变量重复声明无效)
+  - [14. 💻 demos.10 - 变量重复声明并重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#14--demos10---变量重复声明并重新赋值)
   - 知识点：
     - 理解变量、内存、值是什么
     - 了解 var 关键字的基本使用
     - 直到 var 关键字已被淘汰，不再推荐使用
   
 
-- [ ] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
+- [x] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
   
   - [1. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#1--links)
   - [2. 📒 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#2--变量声明提升和暂时性死区)
@@ -52,22 +53,41 @@
   - 介绍了什么是变量声明提升、什么是暂时性死区，并通过一些示例，来了解在 JS 中不同类型的变量的声明和提升机制。
   
 
-- [ ] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--ai)
+- [x] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
+  - [1. 📒 let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--let-关键字)
+  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--demos1---块级作用域)
+  - [3. 💻 demos.2 - 对比 for 循环的循环变量使用 var 和 let 来定义](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--demos2---对比-for-循环的循环变量使用-var-和-let-来定义)
+  - [4. 💻 demos.3 - let 暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demos3---let-暂时性死区)
+  - [5. 💻 demos.4 - 函数参数默认值中的死区](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--demos4---函数参数默认值中的死区)
+  - [6. 💻 demos.5 - 其他奇怪的报错](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#6--demos5---其他奇怪的报错)
+  - [7. 💻 demos.6 - 同一作用域内不允许重复声明](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#7--demos6---同一作用域内不允许重复声明)
+  - [8. 💻 demos.7 - for 循环的特别之处](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#8--demos7---for-循环的特别之处)
+  - [9. 💻 demos.8 - let 出现之前的一些历史问题](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#9--demos8---let-出现之前的一些历史问题)
+  - 知识点：
+    - let 关键字
+    - 块级作用域
+    - 暂时性死区（TDZ）
+    - 经典的“闭包陷阱”问题
+  - let 关键字的规则不多，也比较好理解。在 let、const 关键字出现之前，定义变量只能使用 var 关键字，var 这玩意儿存在不少问题，有很多经典的历史问题在 let、const 出现之后都引刃而解了。
   
 
 - [ ] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--ai)
+  - [1. 📒 const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--const-关键字)
+  - [2. 📒 理解 const 的 “常量约束” 的本质](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--理解-const-的-常量约束-的本质)
+  - [3. 📒 栈内存、堆内存](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--栈内存堆内存)
+  - [4. 💻 demos.1 - 常量不允许重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demos1---常量不允许重新赋值)
+  - [5. 💻 demos.2 - 声明的同时完成初始化赋值](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--demos2---声明的同时完成初始化赋值)
+  - [6. 💻 demos.3 - 引用类型，确保地址不变](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#6--demos3---引用类型确保地址不变)
+  - [7. 💻 demos.4 - 对象冻结](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#7--demos4---对象冻结)
+  - [8. 💼 面试题.1 - 请谈谈 var、let、const](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#8--面试题1---请谈谈-varletconst)
+  - 知识点：
+    - const 关键字
+    - const 的 “常量约束” 的本质
+    - 栈内存、堆内存
+    - const 和 let 之间的区别
+    - 对象冻结 `Object.freeze`
+    - 对象深度冻结（递归）
+  - const 和 let 非常类似，区别在于 let 定义的是变量，const 定义的是常量。定义变量时首选 const 关键字，其次 let 关键字，放弃 var 关键字。
   
 
 - [ ] [0005. 区块](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97/README.md) -->  
