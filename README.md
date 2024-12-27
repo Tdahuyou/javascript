@@ -25,17 +25,31 @@
   - [12. 💻 demos.9 - 变量重复声明无效](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#12--demos9---变量重复声明无效)
   - [13. 💻 demos.10 - 变量重复声明并重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#13--demos10---变量重复声明并重新赋值)
   - 知识点：
-    - 变量的概念
-    - var 关键字的基本使用
+    - 理解变量、内存、值是什么
+    - 了解 var 关键字的基本使用
+    - 直到 var 关键字已被淘汰，不再推荐使用
   
 
 - [ ] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#5--ai)
+  - [1. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#1--links)
+  - [2. 📒 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#2--变量声明提升和暂时性死区)
+  - [3. 💻 demos.1 - var 声明](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#3--demos1---var-声明)
+  - [4. 💻 demos.2 - let 和 const 声明](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#4--demos2---let-和-const-声明)
+  - [5. 💻 demos.3 - 函数声明](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#5--demos3---函数声明)
+  - [6. 💻 demos.4 - 函数表达式](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#6--demos4---函数表达式)
+  - [7. 💼 面试题.1 - 下面的代码输出什么？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#7--面试题1---下面的代码输出什么)
+  - [8. 💼 面试题.2 - 下面的代码输出的结果是什么？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#8--面试题2---下面的代码输出的结果是什么)
+  - [9. 💼 面试题.3 - 请谈谈什么是变量声明提升？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#9--面试题3---请谈谈什么是变量声明提升)
+  - [10. 🤔 思考 - let、const 真的有被提升吗？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#10--思考---letconst-真的有被提升吗)
+  - 知识点：
+    - 变量声明提升
+    - var、let、const 声明
+    - 函数声明
+    - 函数表达式
+    - 暂时性死区（TDZ）
+  - 变量声明提升可以算是面试题常客，需要知道变量声明提升是什么。
+  - 介绍了什么是变量声明提升、什么是暂时性死区，并通过一些示例，来了解在 JS 中不同类型的变量的声明和提升机制。
   
 
 - [ ] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  

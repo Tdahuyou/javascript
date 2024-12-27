@@ -1,9 +1,14 @@
-var a;
-var b;
-function c() {}
+// 问：下面的代码输出的结果是什么？
+let x = 20,
+  y = 10
 
-console.log(a, b, c); // 在此时，a 和 b 是 undefined，c 是函数
-// undefined undefined [Function: c]
+let result = add(x)
+console.log('result1 ' + result)
 
-a = 1;
-b = function () {};
+var add = function (x, y) {
+  return x + y
+}
+
+function add(x) {
+  return x + 40
+}
