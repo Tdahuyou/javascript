@@ -165,11 +165,10 @@
 
 - [ ] [0011. 条件语句 - 三元运算符](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) <!-- [locale](./0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#5--ai)
+  - [1. 📒 三元运算符 `? :` 的基本语法](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--三元运算符-?--的基本语法)
+  - [2. 💻 demos.1 - 判偶数](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#2--demos1---判偶数)
+  - 知识点：
+    - 掌握三元运算符 `?:` 的基本语法
   
 
 - [ ] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
