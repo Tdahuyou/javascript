@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=javascript",
-    "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=javascript",
-    "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=javascript",
-    "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=javascript"
+    "merge": "           node ./node_modules/tnotes   --mergeREADME         --repoName=javascript",
+    "update": "          node ./node_modules/tnotes   --updateREADME        --repoName=javascript",
+    "distribute": "      node ./node_modules/tnotes   --distributeREADME    --repoName=javascript",
+    "sync": "            node ./node_modules/tnotes   --syncREADME          --repoName=javascript",
+    "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js"
   },
   "tnotesConfig": {
     "ignoreDirs": [
@@ -11,6 +12,9 @@
       ".git",
       ".vscode",
       "9999. template"
+    ],
+    "doneNoteIds": [
+      "0001"
     ]
   }
 }
