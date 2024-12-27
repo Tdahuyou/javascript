@@ -131,13 +131,14 @@
   - **很多时候我们并没有必要严格区分开我们所写某一代码片段到底是“表达式”还是“语句”，更重要的是能够理解这玩意儿能否“产生”一个值。**
   
 
-- [ ] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
+- [x] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#5--ai)
+  - [1. 📒 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#1--条件语句---if-结构)
+  - [2. 💻 demos.1 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#2--demos1---if-结构)
+  - [3. 💻 demos.2 - if 加大括号](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#3--demos2---if-加大括号)
+  - [4. 💻 demos.3 - 区分赋值和比较](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#4--demos3---区分赋值和比较)
+  - 知识点：掌握 if 语句的使用。
+  - 笔记中除了介绍 if 语句的基本用法之外，还涉及到了一些和布尔运算、类型转换相关的知识点，这些也非常重要，详情会在其他笔记中介绍。
   
 
 - [ ] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
