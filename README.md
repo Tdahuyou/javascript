@@ -6,6 +6,7 @@
 - [javascript](#javascript)
   - [1. 待分组](#1-待分组)
   - [2. ⏰ 待分组](#2--待分组)
+  - [3. ⏰ 待分组](#3--待分组)
 <!-- endregion:toc -->
 
 ## 1. 待分组
@@ -740,12 +741,9 @@
   - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#5--ai)
   
 
+## 3. ⏰ 待分组
 
-
-## ⏰ 待分组
-
-- [ ] [0078. JS 中的符号](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) <!-- [locale](./0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) -->  # JS 中的符号
-  
+- [x] [0078. JS 中的符号](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) <!-- [locale](./0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) -->  
   - [1. 📒 关键字和保留字](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#1--关键字和保留字)
   - [2. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#2--标识符)
   - [3. 📒 操作符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#3--操作符)
