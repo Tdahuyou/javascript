@@ -171,13 +171,13 @@
     - 掌握三元运算符 `?:` 的基本语法
   
 
-- [ ] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--ai)
+- [x] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
+  - [1. 💻 练习.1 - 判断数字是否是三位数，是否能被 13 整除](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---判断数字是否是三位数是否能被-13-整除)
+  - [2. 💻 练习.2 - 判断学生成绩的等级](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--练习2---判断学生成绩的等级)
+  - [3. 💻 练习.3 - 判断健康状况](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--练习3---判断健康状况)
+  - [4. 💻 练习.4 - 计算理财收益](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--练习4---计算理财收益)
+  - [5. 💻 练习.5 - 猜拳游戏](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--练习5---猜拳游戏)
+  - 完成笔记中记录的相关练习
   
 
 - [ ] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
