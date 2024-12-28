@@ -181,7 +181,17 @@
   - 完成笔记中记录的相关练习
   
 
-- [ ] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
+- [x] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
+  - [1. 📒 转义符的含义和作用](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#1--转义符的含义和作用)
+  - [2. 🔗 wiki 对转义符的介绍](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#2--wiki-对转义符的介绍)
+  - [3. 🤔 问：`escape character` 是什么意思？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#3--问escape-character-是什么意思)
+  - [4. 💻 练习题.1 - 按照指定格式打印系统时间](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#4--练习题1---按照指定格式打印系统时间)
+  - [5. 🤔 问：在 js 的字符串中，\ 反斜杠表示转义，如何不转义，输入反斜杠呢？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#5--问在-js-的字符串中\-反斜杠表示转义如何不转义输入反斜杠呢)
+  - [6. 🤔 问：转义符 `\r\n` 诞生的背景](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#6--问转义符-\r\n-诞生的背景)
+  - 知识点：
+    - 转义符是什么
+    - 转义符有什么用
+  - 当你在程序中需要输出一些特殊字符的时候，能够想要“转义符”这个知识点即可。
   
 
 - [ ] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
@@ -751,5 +761,8 @@
   - [5. 📒 转义符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#5--转义符)
   - [6. 📒 字面量](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#6--字面量)
   - [7. 📒 注释](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#7--注释)
+  - 知识点：
+    - 了解 JS 中都有哪些符号
   - JS 中的符号有很多种类型，这篇笔记对 JS 中的符号做了汇总和归类。
+  - 快速过一遍即可，了解在 JS 中都有哪些类型的符号。其中有一些符号我们已经学过，其他符号在接下来的学习过程中都会介绍到，到时候再掌握即可。
   
