@@ -739,3 +739,19 @@
   - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#4--demo)
   - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#5--ai)
   
+
+
+
+## ⏰ 待分组
+
+- [ ] [0078. JS 中的符号](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) <!-- [locale](./0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) -->  # JS 中的符号
+  
+  - [1. 📒 关键字和保留字](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#1--关键字和保留字)
+  - [2. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#2--标识符)
+  - [3. 📒 操作符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#3--操作符)
+  - [4. 📒 分隔符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#4--分隔符)
+  - [5. 📒 转义符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#5--转义符)
+  - [6. 📒 字面量](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#6--字面量)
+  - [7. 📒 注释](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#7--注释)
+  - JS 中的符号有很多种类型，这篇笔记对 JS 中的符号做了汇总和归类。
+  
