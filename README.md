@@ -194,13 +194,14 @@
   - 当你在程序中需要输出一些特殊字符的时候，能够想要“转义符”这个知识点即可。
   
 
-- [ ] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
+- [x] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#5--ai)
+  - [1. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#1--标识符)
+  - [2. 💼 面试题.1 - 以下哪些标识符是合法的？](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#2--面试题1---以下哪些标识符是合法的)
+  - 知识点：
+    - 标识符是什么
+    - 标识符的命名规范
+  - 标识符其实就是一个名字。程序中需要你指定名字的地方有很多，比如：变量名、函数名、参数名。需要掌握标识符的命名规则，可以拿笔记中的面试题练练手。
   
 
 - [ ] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
