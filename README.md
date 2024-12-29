@@ -237,13 +237,16 @@
   - do...while 循环不常用，快速过有个印象即可。
   
 
-- [ ] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
+- [x] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#5--ai)
+  - [1. 📒 break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#1--break-语句和-continue-语句)
+  - [2. 💻 demos.1 - 在 while 中使用 break](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#2--demos1---在-while-中使用-break)
+  - [3. 💻 demos.2 - 在 for 中使用 break](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#3--demos2---在-for-中使用-break)
+  - [4. 💻 demos.3 - 在循环中使用 continue](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#4--demos3---在循环中使用-continue)
+  - [5. 💻 demos.4 - 多重循环 - break、continue 语句针对当前所在的循环体而言](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#5--demos4---多重循环---breakcontinue-语句针对当前所在的循环体而言)
+  - 知识点：
+    - break 语句
+    - continue 语句
   
 
 - [ ] [0019. 循环语句 - 标签（label）](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) <!-- [locale](./0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) -->  
