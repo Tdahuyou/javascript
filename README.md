@@ -204,31 +204,37 @@
   - 标识符其实就是一个名字。程序中需要你指定名字的地方有很多，比如：变量名、函数名、参数名。需要掌握标识符的命名规则，可以拿笔记中的面试题练练手。
   
 
-- [ ] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+- [x] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#5--ai)
-  
-
-- [ ] [0016. 循环语句 - while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#5--ai)
+  - [1. 📒 for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#1--for-循环)
+  - [2. 💻 demos.1 - for 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---for-循环的基本使用)
+  - [3. 💻 demos.2 - 使用 while 循环来替代 for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2---使用-while-循环来替代-for-循环)
+  - [4. 💻 demos.3 - 死循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#4--demos3---死循环)
+  - [5. 🤔 问：应该使用 `for` 循环还是 `while` 循环？](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#5--问应该使用-for-循环还是-while-循环)
+  - 知识点：
+    - for 循环的基本结构
+    - 死循环
+    - 对比 for 循环和 while 循环
   
 
-- [ ] [0017. 循环语句 - do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+- [x] [0016. 循环语句 - while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#5--ai)
+  - [1. 📒 while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#1--while-循环)
+  - [2. 💻 demos.1 - while 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---while-循环的基本使用)
+  - [3. 💻 demos.2 -  使用 break 跳出循环体](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2----使用-break-跳出循环体)
+  - [4. 💻 demos.3 - 死循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#4--demos3---死循环)
+  - 知识点：
+    - while 循环的基本结构
+  
+
+- [x] [0017. 循环语句 - do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+  
+  - [1. 📒 do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#1--dowhile-循环)
+  - [2. 💻 demos.1 - 理解 do...while 循环的执行流程](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---理解-dowhile-循环的执行流程)
+  - [3. 💻 demos.2 - 对比 do...while 和 while 之间的差异](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2---对比-dowhile-和-while-之间的差异)
+  - 知识点：
+    - 掌握 do...while 循环的基本语法
+  - do...while 循环不常用，快速过有个印象即可。
   
 
 - [ ] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
@@ -246,7 +252,7 @@
   - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#2--links)
   - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#3--notes)
   - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#5--ai)
+  - [5. 🤔 问：如何看待“标签”？](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#5--问如何看待标签)
   
 
 - [ ] [0020. 循环语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
