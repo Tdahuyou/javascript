@@ -1,6 +1,5 @@
 # [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A)
 
-
 <!-- region:toc -->
 - [1. 🔗 JSDoc 官网](#1--jsdoc-官网)
 - [2. 📒 注释是什么](#2--注释是什么)
@@ -106,13 +105,10 @@ console.log(x) // 1
 // 注意：--> 只有在行首，才会被当成单行注释，否则会当作正常的运算。
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717772093875-cb8c6b49-dd0b-432a-a2d2-499add9f077e.png)
-
-虽然在 VSCode 中，这些写法会报红，但是程序是可以正常运行的。
-
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717772139666-497dee2f-06cd-4e84-ab63-2b789e1c4a93.png)
-
-你可以将这段程序搬运到浏览器调试工具中跑一下看看效果，会发现能够正常输出 1。
+- ![](assets/2024-12-31-17-11-49.png)
+- 虽然在 VSCode 中，这些写法会报红，但是程序是可以正常运行的。
+- ![](assets/2024-12-31-17-11-57.png)
+- 你可以将这段程序搬运到浏览器调试工具中跑一下看看效果，会发现能够正常输出 1。
 
 ```javascript
 function countdown(n) {
@@ -141,24 +137,20 @@ function add(a, b) {
 }
 ```
 
-上述这是文档注释，你如果想要生成一个接口文档，可以使用 JSDoc 来实现。步骤很简单。
-
-1. 安装 JSDoc：`npm i -g jsdoc`
-2. 使用 jsdoc 命令来生成文档：`jsdoc 1.js`，这个命令会生成一个 `out` 目录，里面包含生成的 HTML 文档。
-
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717770977305-1e1018cb-dec9-467d-b7f9-7c6c9cf0dcd6.png)
-
-如果不想安装的话，也可以直接 `npx jsdoc 1.js` 来体验一下。
-
-![out/1.js.html](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771199487-ce3a4790-6983-4404-87d0-2bb3cd870e7a.png)
-
-
-
-![out/global.html](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771130480-886d3970-38bc-4bd5-9ef8-c0aba918aa12.png)
-
-
-
-你还可以使用配置文件来自定义生成的文档。创建一个 jsdoc.json 文件，并添加你需要的配置。
+- 上述这是文档注释，比如你想要生成一个接口文档，就可以使用 JSDoc 来实现。
+- **基本流程：**
+  1. 安装 JSDoc：`npm i -g jsdoc`
+  2. 使用 jsdoc 命令来生成文档：`jsdoc 1.js`，这个命令会生成一个 `out` 目录，里面包含生成的 HTML 文档。
+- **生成产物：**
+  - ![](assets/2024-12-31-17-13-27.png)
+  - 如果不想安装 jsdoc 的话，也可以直接使用 `npx jsdoc 1.js` 来临时体验一下。
+    - out/1.js.html
+      - ![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771199487-ce3a4790-6983-4404-87d0-2bb3cd870e7a.png)
+    - out/global.html
+      - ![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771130480-886d3970-38bc-4bd5-9ef8-c0aba918aa12.png)
+- **可配置**
+  - 你可以使用配置文件来自定义生成的文档。创建一个 jsdoc.json 文件，并添加你需要的配置。
+  - 详细的配置说明：https://jsdoc.app/about-configuring-jsdoc
 
 ```javascript
 {
@@ -173,8 +165,6 @@ function add(a, b) {
   }
 }
 ```
-
-详细的配置说明：[https://jsdoc.app/about-configuring-jsdoc](https://jsdoc.app/about-configuring-jsdoc)
 
 ## 9. 💻 demos.4 - 区域注释
 
@@ -230,21 +220,14 @@ function toLowerCase(str) {
 // #endregion 字符串函数
 ```
 
-在这个示例中，我们使用 `// #region` 和 `// #endregion` 来将相关的函数分组。你可以根据需要添加描述，以便更好地理解这些区域的内容。
-
-你可以选择性地将区域给折叠起来，在 VSCode 中，区域开始位置的数字右侧会有一个 ![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771729479-9fe13ff7-f344-46a7-8984-8fcf18a1ac09.png)，点击后即可折叠。
-
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771689976-80a5eab1-9282-45cd-badd-88e40c2f128a.png)
-
-并且，在右侧的缩略图中，你会发现区域的名字会放大显示，以便于你尽快找到对应的代码区域所在的位置。
-
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771757355-cea1c81a-4fad-47ff-a6d6-b3c24e02b149.png)
-
-下面是全部折叠起来之后的效果。
-
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771637730-7f73183d-cae9-4ff1-8dfe-b4545ae58bc3.png)
-
-不同的编辑器对这玩意儿的支持会有所不同，上述介绍的仅仅是 VSCode 环境下的效果。
-
-
-
+- 在这个示例中，我们使用 `// #region` 和 `// #endregion` 来将相关的函数分组。你可以根据需要添加描述，以便更好地理解这些区域的内容。
+- 你可以选择性地将区域给折叠起来，在 VSCode 中，区域开始位置的数字右侧会有一个符号：
+  - ![](assets/2024-12-31-17-19-24.png)
+  - 点击后即可折叠
+  - ![](assets/2024-12-31-17-19-32.png)
+- 并且，在右侧的缩略图中，你会发现区域的名字会放大显示，以便于你尽快找到对应的代码区域所在的位置。
+  - ![](assets/2024-12-31-17-19-56.png)
+- 下面是全部折叠起来之后的效果。
+  - ![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1717771637730-7f73183d-cae9-4ff1-8dfe-b4545ae58bc3.png)
+- 不同的编辑器对这玩意儿的支持会有所不同，上述介绍的仅仅是 VSCode 环境下的效果。
+  - webstorm 对着玩意儿的支持好像会更好一些。
