@@ -307,16 +307,25 @@
   - 完成笔记中记录的相关练习题。
   
 
-- [ ] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
+- [x] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#5--ai)
+  - [1. 🔗 JSDoc 官网](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#1--jsdoc-官网)
+  - [2. 📒 注释是什么](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#2--注释是什么)
+  - [3. 📒 注释的分类](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#3--注释的分类)
+  - [4. 📒 文档注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#4--文档注释)
+  - [5. 📒 区域注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#5--区域注释)
+  - [6. 💻 demos.1 - 单行注释和多行注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#6--demos1---单行注释和多行注释)
+  - [7. 💻 demos.2 - 特殊的单行注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#7--demos2---特殊的单行注释)
+  - [8. 💻 demos.3 - 文档注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#8--demos3---文档注释)
+  - [9. 💻 demos.4 - 区域注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#9--demos4---区域注释)
+  - 知识点：
+    - 单行注释
+    - 多行注释
+    - 文档注释
+    - 区域注释
   
 
-- [ ] [0022. 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) <!-- [locale](./0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) -->  
+- [x] [0022. 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) <!-- [locale](./0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) -->  
   
   - [1. 🔗 MDN 对 字面量（Literal）的描述](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#1--mdn-对-字面量literal的描述)
   - [2. 📒 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#2--字面量)
