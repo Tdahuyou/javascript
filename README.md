@@ -4,11 +4,18 @@
 
 <!-- region:toc -->
 - [javascript](#javascript)
-  - [1. 待分组](#1-待分组)
-  - [2. ⏰ 待分组](#2--待分组)
+  - [1. var、let、const](#1-varletconst)
+  - [2. 作用域](#2-作用域)
+  - [3. js 执行环境](#3-js-执行环境)
+  - [4. 语句和表达式](#4-语句和表达式)
+  - [5. 符号](#5-符号)
+  - [6. 流程控制语句](#6-流程控制语句)
+  - [7. 数据类型](#7-数据类型)
+  - [8. 模块化](#8-模块化)
+  - [9. ⏰ 待分组](#9--待分组)
 <!-- endregion:toc -->
 
-## 1. 待分组
+## 1. var、let、const
 
 - [x] [0001. var 关键字和变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) <!-- [locale](./0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) -->  
   - [1. 💡 思维导图](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#1--思维导图)
@@ -90,6 +97,8 @@
   - const 和 let 非常类似，区别在于 let 定义的是变量，const 定义的是常量。定义变量时首选 const 关键字，其次 let 关键字，放弃 var 关键字。
   
 
+## 2. 作用域
+
 - [x] [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) -->  
   - [1. 📒 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#1--区块和块级作用域)
   - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#2--demos1---块级作用域)
@@ -104,6 +113,8 @@
   - 区块“block”可以简单地理解为一对大括号 `{}`。var 没有块级作用域，let、const 有块级作用域。
   
 
+## 3. js 执行环境
+
 - [x] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
   - [1. 💻 demos.1 - 用浏览器来执行 JS 程序的基本流程](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#1--demos1---用浏览器来执行-js-程序的基本流程)
   - 知识点：
@@ -112,6 +123,8 @@
   - 在开始学习 JS 的内容之前，首先需要知道如何运行 JS 代码。这篇笔记介绍如何使用浏览器跑 JS 程序。
   - 在 nodejs 的学习笔记中，会介绍如何使用 nodejs 来执行 JS 程序（其实非常简单，安装好 nodejs，然后使用 node 命令 👉 `node xxx.js` 就可以执行 `xxx.js` 了。）
   
+
+## 4. 语句和表达式
 
 - [x] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
   - [1. 📒 表达式（Expression）和语句（Statement）](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--表达式expression和语句statement)
@@ -130,6 +143,47 @@
     - `xxx` 可能同时是语句和表达式
   - **很多时候我们并没有必要严格区分开我们所写某一代码片段到底是“表达式”还是“语句”，更重要的是能够理解这玩意儿能否“产生”一个值。**
   
+
+## 5. 符号
+
+- [x] [0078. JS 中的符号](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) <!-- [locale](./0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) -->  
+  - [1. 📒 关键字和保留字](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#1--关键字和保留字)
+  - [2. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#2--标识符)
+  - [3. 📒 操作符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#3--操作符)
+  - [4. 📒 分隔符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#4--分隔符)
+  - [5. 📒 转义符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#5--转义符)
+  - [6. 📒 字面量](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#6--字面量)
+  - [7. 📒 注释](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#7--注释)
+  - 知识点：
+    - 了解 JS 中都有哪些符号
+  - JS 中的符号有很多种类型，这篇笔记对 JS 中的符号做了汇总和归类。
+  - 快速过一遍即可，了解在 JS 中都有哪些类型的符号。其中有一些符号我们已经学过，其他符号在接下来的学习过程中都会介绍到，到时候再掌握即可。
+  
+
+- [x] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
+  - [1. 📒 转义符的含义和作用](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#1--转义符的含义和作用)
+  - [2. 🔗 wiki 对转义符的介绍](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#2--wiki-对转义符的介绍)
+  - [3. 🤔 问：`escape character` 是什么意思？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#3--问escape-character-是什么意思)
+  - [4. 💻 练习题.1 - 按照指定格式打印系统时间](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#4--练习题1---按照指定格式打印系统时间)
+  - [5. 🤔 问：在 js 的字符串中，\ 反斜杠表示转义，如何不转义，输入反斜杠呢？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#5--问在-js-的字符串中\-反斜杠表示转义如何不转义输入反斜杠呢)
+  - [6. 🤔 问：转义符 `\r\n` 诞生的背景](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#6--问转义符-\r\n-诞生的背景)
+  - 知识点：
+    - 转义符是什么
+    - 转义符有什么用
+  - 当你在程序中需要输出一些特殊字符的时候，能够想要“转义符”这个知识点即可。
+  
+
+- [x] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
+  
+  - [1. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#1--标识符)
+  - [2. 💼 面试题.1 - 以下哪些标识符是合法的？](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#2--面试题1---以下哪些标识符是合法的)
+  - 知识点：
+    - 标识符是什么
+    - 标识符的命名规范
+  - 标识符其实就是一个名字。程序中需要你指定名字的地方有很多，比如：变量名、函数名、参数名。需要掌握标识符的命名规则，可以拿笔记中的面试题练练手。
+  
+
+## 6. 流程控制语句
 
 - [x] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
   
@@ -171,79 +225,86 @@
     - 掌握三元运算符 `?:` 的基本语法
   
 
-- [ ] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--ai)
-  
-
-- [ ] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
+- [x] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
+  - [1. 💻 练习.1 - 判断数字是否是三位数，是否能被 13 整除](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---判断数字是否是三位数是否能被-13-整除)
+  - [2. 💻 练习.2 - 判断学生成绩的等级](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--练习2---判断学生成绩的等级)
+  - [3. 💻 练习.3 - 判断健康状况](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--练习3---判断健康状况)
+  - [4. 💻 练习.4 - 计算理财收益](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--练习4---计算理财收益)
+  - [5. 💻 练习.5 - 猜拳游戏](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--练习5---猜拳游戏)
+  - 完成笔记中记录的相关练习
   
 
-- [ ] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
+- [x] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#5--ai)
-  
-
-- [ ] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#5--ai)
+  - [1. 📒 for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#1--for-循环)
+  - [2. 💻 demos.1 - for 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---for-循环的基本使用)
+  - [3. 💻 demos.2 - 使用 while 循环来替代 for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2---使用-while-循环来替代-for-循环)
+  - [4. 💻 demos.3 - 死循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#4--demos3---死循环)
+  - [5. 🤔 问：应该使用 `for` 循环还是 `while` 循环？](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#5--问应该使用-for-循环还是-while-循环)
+  - 知识点：
+    - for 循环的基本结构
+    - 死循环
+    - 对比 for 循环和 while 循环
   
 
-- [ ] [0016. 循环语句 - while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+- [x] [0016. 循环语句 - while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#5--ai)
-  
-
-- [ ] [0017. 循环语句 - do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#5--ai)
+  - [1. 📒 while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#1--while-循环)
+  - [2. 💻 demos.1 - while 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---while-循环的基本使用)
+  - [3. 💻 demos.2 -  使用 break 跳出循环体](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2----使用-break-跳出循环体)
+  - [4. 💻 demos.3 - 死循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#4--demos3---死循环)
+  - 知识点：
+    - while 循环的基本结构
   
 
-- [ ] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
+- [x] [0017. 循环语句 - do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#5--ai)
-  
-
-- [ ] [0019. 循环语句 - 标签（label）](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) <!-- [locale](./0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#5--ai)
+  - [1. 📒 do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#1--dowhile-循环)
+  - [2. 💻 demos.1 - 理解 do...while 循环的执行流程](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---理解-dowhile-循环的执行流程)
+  - [3. 💻 demos.2 - 对比 do...while 和 while 之间的差异](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2---对比-dowhile-和-while-之间的差异)
+  - 知识点：
+    - 掌握 do...while 循环的基本语法
+  - do...while 循环不常用，快速过有个印象即可。
   
 
-- [ ] [0020. 循环语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
+- [x] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--ai)
+  - [1. 📒 break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#1--break-语句和-continue-语句)
+  - [2. 💻 demos.1 - 在 while 中使用 break](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#2--demos1---在-while-中使用-break)
+  - [3. 💻 demos.2 - 在 for 中使用 break](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#3--demos2---在-for-中使用-break)
+  - [4. 💻 demos.3 - 在循环中使用 continue](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#4--demos3---在循环中使用-continue)
+  - [5. 💻 demos.4 - 多重循环 - break、continue 语句针对当前所在的循环体而言](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#5--demos4---多重循环---breakcontinue-语句针对当前所在的循环体而言)
+  - 知识点：
+    - break 语句
+    - continue 语句
+  
+
+- [x] [0019. 循环语句 - 标签（label）](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) <!-- [locale](./0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) -->  
+  - [1. 📒 标签](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#1--标签)
+  - [2. 💻 demos.1 - break、continue 加标签](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#2--demos1---breakcontinue-加标签)
+  - [3. 💻 demos.2 - 跳出区块](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#3--demos2---跳出区块)
+  - [4. 💻 demos.3 - 不能跨区块跳](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#4--demos3---不能跨区块跳)
+  - [5. 🤔 问：如何看待“标签”？](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#5--问如何看待标签)
+  - “标签” 在开发时几乎不会用到它，这个知识点不算重要，快速过一遍笔记，简单了解一下它的作用即可。
+  
+
+- [x] [0020. 循环语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
+  
+  - [1. 💻 练习.1 - 在控制台中输出 100 个 `*`](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---在控制台中输出-100-个-*)
+  - [2. 💻 练习.2 - 输出 1-100 的所有数字](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--练习2---输出-1-100-的所有数字)
+  - [3. 💻 练习.3 - 输出 1-100 的所有奇数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--练习3---输出-1-100-的所有奇数)
+  - [4. 💻 练习.4 - 求 1-100 之间所有数字之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--练习4---求-1-100-之间所有数字之和)
+  - [5. 💻 练习.5 - 求 1-100 之间所有奇数之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--练习5---求-1-100-之间所有奇数之和)
+  - [6. 💻 练习.6 - 求 1-10 之间所有数字的积](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#6--练习6---求-1-10-之间所有数字的积)
+  - [7. 💻 练习.7 - 输出一个 3 行 5 列的 `*` 号矩阵](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#7--练习7---输出一个-3-行-5-列的-*-号矩阵)
+  - [8. 💻 练习.8 - 用 `*` 号输出一个 5 行的直角三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#8--练习8---用-*-号输出一个-5-行的直角三角形)
+  - [9. 💻 练习.9 - 用 `*` 号输出一个 5 行的等腰三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#9--练习9---用-*-号输出一个-5-行的等腰三角形)
+  - [10. 💻 练习.10 - 判断数字 233 是不是素数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#10--练习10---判断数字-233-是不是素数)
+  - [11. 💻 练习.11 - 判断 1-100 哪些数是素数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#11--练习11---判断-1-100-哪些数是素数)
+  - [12. 💻 练习.12 - 求 1-100 之间的所有素数之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#12--练习12---求-1-100-之间的所有素数之和)
+  - [13. 💻 练习.13 - 输出 99 乘法表](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#13--练习13---输出-99-乘法表)
+  - [14. 💻 练习.14 - 猜拳游戏](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#14--练习14---猜拳游戏)
+  - 完成笔记中记录的相关练习题。
   
 
 - [ ] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
@@ -264,6 +325,8 @@
     - 理解字面量是什么
   - 字面量就是直接写在代码中的值。
   
+
+## 7. 数据类型
 
 - [ ] [0023. boolean 类型](https://github.com/Tdahuyou/javascript/tree/main/0023.%20boolean%20%E7%B1%BB%E5%9E%8B/README.md) <!-- [locale](./0023.%20boolean%20%E7%B1%BB%E5%9E%8B/README.md) -->  
   
@@ -607,6 +670,8 @@
   - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#5--ai)
   
 
+## 8. 模块化
+
 - [ ] [0061.doing. 前端模块化](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md) <!-- [locale](./0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md) -->  
   
   - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#1--summary)
@@ -730,7 +795,7 @@
 - [ ] [0077. encodeURIcomponent](https://github.com/Tdahuyou/javascript/tree/main/0077.%20encodeURIcomponent/README.md) <!-- [locale](./0077.%20encodeURIcomponent/README.md) -->  
   
 
-## 2. ⏰ 待分组
+## 9. ⏰ 待分组
 
 - [ ] [9999. template](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md) <!-- [locale](./9999.%20template/README.md) -->  
   
