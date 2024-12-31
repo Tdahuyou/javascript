@@ -462,13 +462,20 @@
   - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#5--ai)
   
 
-- [ ] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
+- [x] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#5--ai)
+  - [1. 🔗 leetcode 相关例题](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#1--leetcode-相关例题)
+  - [2. 📒 防抖](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#2--防抖)
+  - [3. 📒 节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#3--节流)
+  - [4. 📒 防抖 vs. 节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#4--防抖-vs-节流)
+  - [5. 💻 demos.1 - 防抖](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#5--demos1---防抖)
+  - [6. 💻 demos.2 - 节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#6--demos2---节流)
+  - 知识点：
+    - 理解防抖
+    - 理解节流
+    - 完成 leetcode 算法题
+  - 防抖（debouncing）和节流（throttling）都是用来控制函数调用频率的技术解决方案。
+    - ![](https://raw.githubusercontent.com/Tdahuyou/javascript/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/assets%2F2024-12-31-17-34-54.png)
   
 
 - [ ] [0038. 数组类型【扩展】](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) <!-- [locale](./0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) -->  
