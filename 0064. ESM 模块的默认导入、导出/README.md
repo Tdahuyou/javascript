@@ -2,11 +2,11 @@
 
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary-40)
-- [2. 🔗 links](#2--links-40)
-- [3. 📒 notes](#3--notes-40)
-- [4. 💻 demo](#4--demo-40)
-- [5. 🤖 AI](#5--ai-40)
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📒 notes](#3--notes)
+- [4. 💻 demo](#4--demo)
+- [5. 🤖 AI](#5--ai)
 <!-- endregion:toc -->
 
 ## 1. 📝 summary
