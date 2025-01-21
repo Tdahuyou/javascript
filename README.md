@@ -17,7 +17,7 @@
 
 ## 1. var、let、const
 
-- [x] [0001. var 关键字和变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) <!-- [locale](./0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) -->  
+- [ ] [0001. var 关键字和变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) <!-- [locale](./0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) -->  
   - [1. 💡 思维导图](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#1--思维导图)
   - [2. 📒 理解变量、内存、值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#2--理解变量内存值)
   - [3. 💻 demos.11 - `var` 关键字的作用域特性](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#3--demos11---var-关键字的作用域特性)
@@ -38,7 +38,7 @@
     - 直到 var 关键字已被淘汰，不再推荐使用
   
 
-- [x] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
+- [ ] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
   
   - [1. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#1--links)
   - [2. 📒 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#2--变量声明提升和暂时性死区)
@@ -60,7 +60,7 @@
   - 介绍了什么是变量声明提升、什么是暂时性死区，并通过一些示例，来了解在 JS 中不同类型的变量的声明和提升机制。
   
 
-- [x] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
+- [ ] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
   - [1. 📒 let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--let-关键字)
   - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--demos1---块级作用域)
   - [3. 💻 demos.2 - 对比 for 循环的循环变量使用 var 和 let 来定义](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--demos2---对比-for-循环的循环变量使用-var-和-let-来定义)
@@ -78,7 +78,7 @@
   - let 关键字的规则不多，也比较好理解。在 let、const 关键字出现之前，定义变量只能使用 var 关键字，var 这玩意儿存在不少问题，有很多经典的历史问题在 let、const 出现之后都引刃而解了。
   
 
-- [x] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
+- [ ] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
   - [1. 📒 const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--const-关键字)
   - [2. 📒 理解 const 的 “常量约束” 的本质](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--理解-const-的-常量约束-的本质)
   - [3. 📒 栈内存、堆内存](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--栈内存堆内存)
@@ -99,7 +99,7 @@
 
 ## 2. 作用域
 
-- [x] [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) -->  
+- [ ] [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) -->  
   - [1. 📒 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#1--区块和块级作用域)
   - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#2--demos1---块级作用域)
   - [3. 💻 demos.2 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#3--demos2---if-结构)
@@ -115,7 +115,7 @@
 
 ## 3. js 执行环境
 
-- [x] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
+- [ ] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
   - [1. 💻 demos.1 - 用浏览器来执行 JS 程序的基本流程](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#1--demos1---用浏览器来执行-js-程序的基本流程)
   - 知识点：
     - 学会使用浏览器环境运行 JS
@@ -126,11 +126,11 @@
 
 ## 4. 语句和表达式
 
-- [x] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
+- [ ] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
   - [1. 📒 表达式（Expression）和语句（Statement）](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--表达式expression和语句statement)
   - [2. 💻 demos.1 - 理解语句](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--demos1---理解语句)
   - [3. 💻 demos.2 - 理解表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--demos2---理解表达式)
-  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4--练习题)
+  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4-️-练习题)
   - [5. 🤔 问：写在前面的语句一定先于后面的语句执行吗？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--问写在前面的语句一定先于后面的语句执行吗)
   - [6. 🤔 问：如何区分表达式和语句？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#6--问如何区分表达式和语句)
   - 知识点：
@@ -146,7 +146,7 @@
 
 ## 5. 符号
 
-- [x] [0078. JS 中的符号](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) <!-- [locale](./0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) -->  
+- [ ] [0078. JS 中的符号](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) <!-- [locale](./0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md) -->  
   - [1. 📒 关键字和保留字](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#1--关键字和保留字)
   - [2. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#2--标识符)
   - [3. 📒 操作符](https://github.com/Tdahuyou/javascript/tree/main/0078.%20JS%20%E4%B8%AD%E7%9A%84%E7%AC%A6%E5%8F%B7/README.md#3--操作符)
@@ -160,20 +160,20 @@
   - 快速过一遍即可，了解在 JS 中都有哪些类型的符号。其中有一些符号我们已经学过，其他符号在接下来的学习过程中都会介绍到，到时候再掌握即可。
   
 
-- [x] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
+- [ ] [0013. 转义符](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) <!-- [locale](./0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md) -->  
   - [1. 📒 转义符的含义和作用](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#1--转义符的含义和作用)
   - [2. 🔗 wiki 对转义符的介绍](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#2--wiki-对转义符的介绍)
   - [3. 🤔 问：`escape character` 是什么意思？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#3--问escape-character-是什么意思)
   - [4. 💻 练习题.1 - 按照指定格式打印系统时间](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#4--练习题1---按照指定格式打印系统时间)
-  - [5. 🤔 问：在 js 的字符串中，\ 反斜杠表示转义，如何不转义，输入反斜杠呢？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#5--问在-js-的字符串中\-反斜杠表示转义如何不转义输入反斜杠呢)
-  - [6. 🤔 问：转义符 `\r\n` 诞生的背景](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#6--问转义符-\r\n-诞生的背景)
+  - [5. 🤔 问：在 js 的字符串中，\ 反斜杠表示转义，如何不转义，输入反斜杠呢？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#5--问在-js-的字符串中-反斜杠表示转义如何不转义输入反斜杠呢)
+  - [6. 🤔 问：转义符 `\r\n` 诞生的背景](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#6--问转义符-rn-诞生的背景)
   - 知识点：
     - 转义符是什么
     - 转义符有什么用
   - 当你在程序中需要输出一些特殊字符的时候，能够想要“转义符”这个知识点即可。
   
 
-- [x] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
+- [ ] [0014. 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) <!-- [locale](./0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md) -->  
   
   - [1. 📒 标识符](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#1--标识符)
   - [2. 💼 面试题.1 - 以下哪些标识符是合法的？](https://github.com/Tdahuyou/javascript/tree/main/0014.%20%E6%A0%87%E8%AF%86%E7%AC%A6/README.md#2--面试题1---以下哪些标识符是合法的)
@@ -185,7 +185,7 @@
 
 ## 6. 流程控制语句
 
-- [x] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
+- [ ] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
   
   - [1. 📒 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#1--条件语句---if-结构)
   - [2. 💻 demos.1 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#2--demos1---if-结构)
@@ -195,7 +195,7 @@
   - 笔记中除了介绍 if 语句的基本用法之外，还涉及到了一些和布尔运算、类型转换相关的知识点，这些也非常重要，详情会在其他笔记中介绍。
   
 
-- [x] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
+- [ ] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
   - [1. 📒 if...else 基本结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#1--ifelse-基本结构)
   - [2. 💻 demos.2 - 认识基本的 if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#2--demos2---认识基本的-ifelse-结构)
   - [3. 💻 demos.3 - 多个 if...else 的情况](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#3--demos3---多个-ifelse-的情况)
@@ -205,7 +205,7 @@
     - 直到 if else 的配对规则
   
 
-- [x] [0010. 条件语句 - switch 结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) -->  
+- [ ] [0010. 条件语句 - switch 结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) -->  
   - [1. 📒 switch 基本结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#1--switch-基本结构)
   - [2. 💻 demos.1 - switch 中的 break 语句](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#2--demos1---switch-中的-break-语句)
   - [3. 💻 demos.2 - 使用表达式](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#3--demos2---使用表达式)
@@ -217,15 +217,15 @@
   - JavaScript 提供 `if` 结构和 `switch` 结构，完成条件判断，即只有满足预设的条件，才会执行相应的语句。但是，相对于 `if` 语句而言，`switch` 语句是很罕见的（甚至有的公司禁止使用，可能是考虑到条件语句咋用 `if` 就完全足够了，没必要再来一个 `switch`）。
   
 
-- [x] [0011. 条件语句 - 三元运算符](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) <!-- [locale](./0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) -->  
+- [ ] [0011. 条件语句 - 三元运算符](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) <!-- [locale](./0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) -->  
   
-  - [1. 📒 三元运算符 `? :` 的基本语法](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--三元运算符-?--的基本语法)
+  - [1. 📒 三元运算符 `? :` 的基本语法](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--三元运算符---的基本语法)
   - [2. 💻 demos.1 - 判偶数](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#2--demos1---判偶数)
   - 知识点：
     - 掌握三元运算符 `?:` 的基本语法
   
 
-- [x] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
+- [ ] [0012. 条件语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
   - [1. 💻 练习.1 - 判断数字是否是三位数，是否能被 13 整除](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---判断数字是否是三位数是否能被-13-整除)
   - [2. 💻 练习.2 - 判断学生成绩的等级](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--练习2---判断学生成绩的等级)
   - [3. 💻 练习.3 - 判断健康状况](https://github.com/Tdahuyou/javascript/tree/main/0012.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--练习3---判断健康状况)
@@ -234,7 +234,7 @@
   - 完成笔记中记录的相关练习
   
 
-- [x] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+- [ ] [0015. 循环语句 - for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
   - [1. 📒 for 循环](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#1--for-循环)
   - [2. 💻 demos.1 - for 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0015.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20for%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---for-循环的基本使用)
@@ -247,7 +247,7 @@
     - 对比 for 循环和 while 循环
   
 
-- [x] [0016. 循环语句 - while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+- [ ] [0016. 循环语句 - while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
   - [1. 📒 while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#1--while-循环)
   - [2. 💻 demos.1 - while 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---while-循环的基本使用)
@@ -257,7 +257,7 @@
     - while 循环的基本结构
   
 
-- [x] [0017. 循环语句 - do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
+- [ ] [0017. 循环语句 - do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) <!-- [locale](./0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md) -->  
   
   - [1. 📒 do...while 循环](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#1--dowhile-循环)
   - [2. 💻 demos.1 - 理解 do...while 循环的执行流程](https://github.com/Tdahuyou/javascript/tree/main/0017.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20do...while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---理解-dowhile-循环的执行流程)
@@ -267,7 +267,7 @@
   - do...while 循环不常用，快速过有个印象即可。
   
 
-- [x] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
+- [ ] [0018. 循环语句 - break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) <!-- [locale](./0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md) -->  
   
   - [1. 📒 break 语句和 continue 语句](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#1--break-语句和-continue-语句)
   - [2. 💻 demos.1 - 在 while 中使用 break](https://github.com/Tdahuyou/javascript/tree/main/0018.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20break%20%E8%AF%AD%E5%8F%A5%E5%92%8C%20continue%20%E8%AF%AD%E5%8F%A5/README.md#2--demos1---在-while-中使用-break)
@@ -279,7 +279,7 @@
     - continue 语句
   
 
-- [x] [0019. 循环语句 - 标签（label）](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) <!-- [locale](./0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) -->  
+- [ ] [0019. 循环语句 - 标签（label）](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) <!-- [locale](./0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md) -->  
   - [1. 📒 标签](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#1--标签)
   - [2. 💻 demos.1 - break、continue 加标签](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#2--demos1---breakcontinue-加标签)
   - [3. 💻 demos.2 - 跳出区块](https://github.com/Tdahuyou/javascript/tree/main/0019.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E6%A0%87%E7%AD%BE%EF%BC%88label%EF%BC%89/README.md#3--demos2---跳出区块)
@@ -288,17 +288,17 @@
   - “标签” 在开发时几乎不会用到它，这个知识点不算重要，快速过一遍笔记，简单了解一下它的作用即可。
   
 
-- [x] [0020. 循环语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
+- [ ] [0020. 循环语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
   
-  - [1. 💻 练习.1 - 在控制台中输出 100 个 `*`](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---在控制台中输出-100-个-*)
+  - [1. 💻 练习.1 - 在控制台中输出 100 个 `*`](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---在控制台中输出-100-个-)
   - [2. 💻 练习.2 - 输出 1-100 的所有数字](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--练习2---输出-1-100-的所有数字)
   - [3. 💻 练习.3 - 输出 1-100 的所有奇数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--练习3---输出-1-100-的所有奇数)
   - [4. 💻 练习.4 - 求 1-100 之间所有数字之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--练习4---求-1-100-之间所有数字之和)
   - [5. 💻 练习.5 - 求 1-100 之间所有奇数之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--练习5---求-1-100-之间所有奇数之和)
   - [6. 💻 练习.6 - 求 1-10 之间所有数字的积](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#6--练习6---求-1-10-之间所有数字的积)
-  - [7. 💻 练习.7 - 输出一个 3 行 5 列的 `*` 号矩阵](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#7--练习7---输出一个-3-行-5-列的-*-号矩阵)
-  - [8. 💻 练习.8 - 用 `*` 号输出一个 5 行的直角三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#8--练习8---用-*-号输出一个-5-行的直角三角形)
-  - [9. 💻 练习.9 - 用 `*` 号输出一个 5 行的等腰三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#9--练习9---用-*-号输出一个-5-行的等腰三角形)
+  - [7. 💻 练习.7 - 输出一个 3 行 5 列的 `*` 号矩阵](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#7--练习7---输出一个-3-行-5-列的--号矩阵)
+  - [8. 💻 练习.8 - 用 `*` 号输出一个 5 行的直角三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#8--练习8---用--号输出一个-5-行的直角三角形)
+  - [9. 💻 练习.9 - 用 `*` 号输出一个 5 行的等腰三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#9--练习9---用--号输出一个-5-行的等腰三角形)
   - [10. 💻 练习.10 - 判断数字 233 是不是素数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#10--练习10---判断数字-233-是不是素数)
   - [11. 💻 练习.11 - 判断 1-100 哪些数是素数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#11--练习11---判断-1-100-哪些数是素数)
   - [12. 💻 练习.12 - 求 1-100 之间的所有素数之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#12--练习12---求-1-100-之间的所有素数之和)
@@ -307,7 +307,7 @@
   - 完成笔记中记录的相关练习题。
   
 
-- [x] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
+- [ ] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
   - [1. 🔗 JSDoc 官网](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#1--jsdoc-官网)
   - [2. 📒 注释是什么](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#2--注释是什么)
   - [3. 📒 注释的分类](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#3--注释的分类)
@@ -324,7 +324,7 @@
     - 区域注释
   
 
-- [x] [0022. 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) <!-- [locale](./0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) -->  
+- [ ] [0022. 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) <!-- [locale](./0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) -->  
   
   - [1. 🔗 MDN 对 字面量（Literal）的描述](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#1--mdn-对-字面量literal的描述)
   - [2. 📒 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#2--字面量)
@@ -462,7 +462,7 @@
   - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#5--ai)
   
 
-- [x] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
+- [ ] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
   
   - [1. 🔗 leetcode 相关例题](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#1--leetcode-相关例题)
   - [2. 📒 防抖](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#2--防抖)
