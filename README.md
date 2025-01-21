@@ -12,7 +12,8 @@
   - [6. 流程控制语句](#6-流程控制语句)
   - [7. 数据类型](#7-数据类型)
   - [8. 模块化](#8-模块化)
-  - [9. ⏰ 待分组](#9--待分组)
+  - [9. ⚙️ window 对象](#9-️-window-对象)
+  - [10. ⏰ 待分组](#10--待分组)
 <!-- endregion:toc -->
 
 ## 1. var、let、const
@@ -810,13 +811,28 @@
 - [ ] [0077. encodeURIcomponent](https://github.com/Tdahuyou/javascript/tree/main/0077.%20encodeURIcomponent/README.md) <!-- [locale](./0077.%20encodeURIcomponent/README.md) -->  
   
 
-## 9. ⏰ 待分组
+## 9. ⚙️ window 对象
 
-- [ ] [9999. template](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md) <!-- [locale](./9999.%20template/README.md) -->  
+- [x] [0079. window.onbeforeunload](https://github.com/Tdahuyou/javascript/tree/main/0079.%20window.onbeforeunload/README.md) <!-- [locale](./0079.%20window.onbeforeunload/README.md) -->  
+  - [1. 🔗 mdn - window.onbeforeunload](https://github.com/Tdahuyou/javascript/tree/main/0079.%20window.onbeforeunload/README.md#1--mdn---windowonbeforeunload)
+  - [2. 💻 demos.1 - window.onbeforeunload 基本使用](https://github.com/Tdahuyou/javascript/tree/main/0079.%20window.onbeforeunload/README.md#2--demos1---windowonbeforeunload-基本使用)
+  - `window.onbeforeunload` 是一个事件处理器，它用于在窗口、页面或标签即将卸载时触发。
+  - **当用户尝试关闭浏览器窗口、刷新页面、导航到另一个页面或者通过其他方式离开当前页面时**，这个事件会被触发。
+  - 使用 `onbeforeunload` 事件可以显示一个确认对话框给用户，询问他们是否真的要离开页面。
+  - **这在用户正在编辑表单或其他数据而尚未保存的情况下特别有用**，因为它提供了一种防止意外丢失工作的方式。
+  - 滥用 `onbeforeunload` 可能会导致糟糕的用户体验，应谨慎使用，仅在必要时提醒用户。
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#5--ai)
+
+- [x] [0080. window.confirm](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md) <!-- [locale](./0080.%20window.confirm/README.md) -->  
+  - [1. 🔗 mdn - window.confirm](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md#1--mdn---windowconfirm)
+  - [2. 💻 demos.1 - window.confirm()](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md#2--demos1---windowconfirm)
+  - 在 Web 开发中，如果开发者想要在特定条件下触发类似的对话框，可以使用 `window.confirm()` 方法。
+  - 这个方法会显示一个带有“确定”和“取消”按钮的基本对话框，并返回一个布尔值，表示用户的选择是“确定”（true）还是“取消”（false）。
+  
+
+## 10. ⏰ 待分组
+
+- [x] [0081. 使用 postMessage 实现跨标签页通信](https://github.com/Tdahuyou/javascript/tree/main/0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.md) <!-- [locale](./0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.md) -->  
+  - [1. 💻 demos.1 - 使用 postMessage 实现跨标签页通信](https://github.com/Tdahuyou/javascript/tree/main/0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.md#1--demos1---使用-postmessage-实现跨标签页通信)
+  - `postMessage` API 可用于实现不同窗口、标签页或 iframe 之间的安全通信。它允许你向另一个浏览上下文（如新打开的窗口、iframe 等）发送消息，并可以接收来自这些上下文的消息。
   
